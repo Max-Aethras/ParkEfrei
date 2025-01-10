@@ -1,0 +1,17 @@
+{
+    "name": "maxim/park-efrei",
+    "autoload": {
+        "psr-4": {
+            "Maxim\\ParkEfrei\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Maxime",
+            "email": "maxime.bernheim@efrei.net"
+        }
+    ],
+    "require": {
+        "twig/twig": "^3.0"
+    }
+}

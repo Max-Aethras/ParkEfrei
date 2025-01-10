@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ajouter une Nouvelle Voiture</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <h2>Ajouter une Nouvelle Voiture</h2>
+    <form method="POST" action="/car/create">
+        <label for="make">Marque :</label>
+        <input type="text" id="make" name="make" required><br>
+
+        <label for="model">Modèle :</label>
+        <input type="text" id="model" name="model" required><br>
+
+        <label for="year">Année :</label>
+        <input type="number" id="year" name="year" required><br>
+
+        <button type="submit">Ajouter</button>
+    </form>
+
+    <a href="/">Retour à la liste des voitures</a>
+</body>
+</html>

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Liste des Voitures</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <h2>Liste des Voitures</h2>
+    <ul>
+    {% for car in cars %}
+        <li>{{ car.make }} {{ car.model }} ({{ car.year }})</li>
+    {% else %}
+        <li>Aucune voiture trouvée.</li> <!-- Message si aucune voiture n'est disponible -->
+    {% endfor %}
+    </ul>
+    <a href="/car/create">Ajouter une nouvelle voiture</a>
+</body>
+</html>
